@@ -30,9 +30,9 @@ var cardsInPlay = [];
 //check for match function
 var checkForMatch = function() {
 	if (cardsInPlay[0] === cardsInPlay[1]) {
-		console.log("You have found a match!");
+		alert("You have found a match!");
 	} else {
-		console.log("Sorry, try again.");
+		alert("Sorry, try again.");
 	}
 };
 
@@ -45,9 +45,9 @@ cardId = this.getAttribute('data-id');
 //display card image
 	this.setAttribute('src', cards[cardId].cardImage);
 	if (cardsInPlay.length === 2 && cardsInPlay[0] === cardsInPlay[2])
-		{ alert("You found a match!");
+		{ console.log("You found a match!");
 	}
-	else { alert("Sorry, try again.")
+	else { console.log("Sorry, try again.")
 	
 	};
 
