@@ -39,6 +39,7 @@ var checkForMatch = function() {
 //function to show user flipping card
 var flipCard = function() {	
 cardId = this.getAttribute('data-id');
+
 //display flipped card in console	
 	console.log("User flipped" + " " + cards[cardId].rank);
 
